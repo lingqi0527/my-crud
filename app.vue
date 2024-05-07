@@ -12,7 +12,7 @@
       :columns="columns"
       :data="data"
       :rowHandle="rowHandle"
-      add-title="新增考勤规则"
+      add-title="新增考勤规则dddssss"
       :add-template="addTemplate"
       :edit-template="addTemplate"
       :look-template="addTemplate"
@@ -27,7 +27,7 @@
       @event:com-coma="handle"
     >
       <template #header>
-        <el-button type="primary" style="margin-bottom: 5px" @click="addDevice">新增设备</el-button>
+        <el-button type="primary" style="margin-bottom: 5px" @click="addDevice">新增000设备</el-button>
       </template>
     </d2-crud>
   </div>
